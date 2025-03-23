@@ -1,4 +1,5 @@
-local Library = {}
+if game.PlaceId == 4924922222 then
+    local Library = {}
 
 -- Customize these values
 local MenuTitle = " "
@@ -268,3 +269,7 @@ CloseButton.MouseButton1Click:Connect(function()
 end)
 
 return Library
+else
+    print("Скрипт может работать только в Brookhaven.")
+    return
+end
